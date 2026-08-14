@@ -68,8 +68,8 @@ The 95% accuracy goal wasn't reached — which is itself part of the exercise. T
 ## 🗂️ What's Here
 
 ```
-end-to-end-heart-diesease-classification.ipynb   # The full analysis
-heart-disease.csv                                # Cleveland dataset (303 rows, 14 columns)
+end-to-end-heart-disease-classification.ipynb   # The full analysis
+heart-disease.csv                               # Cleveland dataset (303 rows, 14 columns)
 ```
 
 ---
@@ -78,7 +78,7 @@ heart-disease.csv                                # Cleveland dataset (303 rows, 
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter
-jupyter notebook end-to-end-heart-diesease-classification.ipynb
+jupyter notebook end-to-end-heart-disease-classification.ipynb
 ```
 
 ---
