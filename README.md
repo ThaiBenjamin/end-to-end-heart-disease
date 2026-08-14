@@ -90,3 +90,10 @@ The biggest lesson was that the model is the small part. Most of the notebook is
 Comparing three models side by side made it obvious that more complexity isn't automatically better: KNN, which sounds intuitive, was the worst performer by a wide margin, while plain Logistic Regression won and stayed winning even after both RandomizedSearchCV and GridSearchCV. Tuning gave back almost nothing on top of the baseline, which was a useful reality check on how much hyperparameter search actually buys you.
 
 The evaluation section changed how I read results. Recall came out at 92% against 82% precision — for a heart disease screen, that's the right trade: missing a sick patient is far worse than flagging a healthy one for follow-up. And the cross-validated accuracy (84%) landed several points below the single-split accuracy (89%), which was a concrete demonstration that one train/test split can flatter a model. Finally, not hitting the 95% target was the most honest part of the project: knowing when a proof of concept hasn't earned the next step matters more than forcing a number.
+
+---
+
+## 🔗 Related Projects
+
+- [End-to-End Bulldozer Price Regression](https://github.com/ThaiBenjamin/end-to-end-bulldozer-price) — regression on a 400,000-row time series dataset
+- [End-to-End Dog Vision](https://github.com/ThaiBenjamin/end-to-end-dog-vision) — 120-class image classification with transfer learning
